@@ -1,0 +1,436 @@
+body{
+  background-color: #e8e8e8;
+}
+
+.navpad{
+  padding: 1rem;
+}
+
+.navbar-brand{
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.unn-span{
+  font-size: .9rem;
+    font-weight: bolder;
+}
+
+.loginbut, .logoutbut{
+  position: absolute;
+  right: 2.5rem;
+  top: 4.45rem;
+  color: #ffffff;
+}
+
+.loginbut:hover{
+  color: #16ff05;
+}
+
+.logoutbut:hover{
+  color: #ff0505;
+}
+
+.loginfa{  position: absolute;
+  right: 1.5rem;
+  top: 4.65rem;
+  color: #ffffff;
+}
+
+.userimg{
+  position: absolute;
+  right: 7.5rem;
+  top: 4.65rem;
+  color: #ffffff;
+}
+
+#userName{
+  color: #ffffff;
+  position: absolute;
+  right: 9rem;
+  top: 4.45rem;
+  font-weight: bolder;
+  font-family: serif;
+}
+
+/* NOTIFCATION */
+
+#note{
+  color: #fff;
+  background-color: #000;
+  width: 100%;
+  opacity: .9;
+  box-shadow: -3px 5px 5px #000;
+  padding: 1em;
+  position: absolute;
+  top: 1em;
+  left: 0;
+  z-index: 1;
+}
+
+#note .notebody {
+  text-align: center;
+}
+
+.notebody{
+  border: 1px solid skyblue;
+  margin: 2%;
+  padding: 2%;
+  letter-spacing: 2px;
+}
+
+.notebody h2{
+  color: blue;
+  font-family: serif;
+  font-weight: bolder;
+  text-shadow: .5px .5px 1px white;
+}
+
+.notification{
+  text-align: right;
+  margin: 0;
+  font-weight: bolder;
+}
+
+a#close{
+  color: red;
+}
+
+/* LOGIN FORM SECTION */
+.loginform{
+  background-color: gray;
+  color: #ffff;
+  border-radius: 5px;
+  border: 1.5px solid black;
+  display: inline-block;
+  padding: 2%;
+  width: 23rem;
+  font-size: .9rem;
+  text-align: left;
+}
+
+.formpad{
+  padding: 2px 0;
+}
+
+.btn-right{
+  float: right;
+}
+
+#formright{
+  margin: 1%;
+  position: absolute;
+  top: 80px;
+  right: .1rem;
+  opacity: .95;
+}
+
+.logininput{
+  text-align: center;
+  border: 1.5px solid black;
+  position: absolute;
+  right: 2.5rem;
+}
+#msg {
+  color: #fff;
+  background-repeat: no-repeat;
+  background-position: 2px 14px;
+  padding: 10px 0 0 22px;
+}
+
+.warning {background-image: url('../images/warning.png');}
+
+/* INTRODUCTION SECTION */
+
+  blockquote {
+  float: right;
+  width: 21%;
+  font-size: 100%;
+  font-style: italic;
+  text-align: justify;
+  font-family: Georgia, Times, serif;
+  margin: 1% 1% 1% 0 ;
+  padding: .5%;
+  border-top: 1px solid #665544;
+  border-bottom: 1px solid #665544;}
+
+.caption{
+  width: 76%;
+  margin: 1% 1% 5%;
+  height: 450px;
+}
+
+figcaption{
+  font-size: 90%;
+  font-weight: bolder;
+  text-align: center;
+  background-color: grey;
+}
+
+/* NEWS FILED SECTION */
+
+.tabs{
+  margin: 2%;
+}
+
+.tabs-column{
+  border-right: double;
+  padding: 0 10px;
+  font-weight: bolder;
+}
+
+h5{
+  margin: 1% 2% 0;
+  clear: left;
+}
+
+.row{
+  margin: 0;
+}
+
+.right-column{
+  margin: 1.5% 1%;
+}
+
+.ass-btn{
+  margin: 3% 0 2% 55%;
+}
+
+.left-column {
+float: left;
+width: 77%;
+margin: 0;
+}
+
+.association-header{
+  text-align: center;
+  font-weight: bolder;
+}
+
+.card-header{
+    padding: .5%;
+}
+
+.space{
+  margin-top: 2%;
+}
+
+h6{
+  font-size: .91rem;
+}
+
+h4 a{
+  color:black;
+}
+
+.card-note{
+  padding: 2%;
+}
+
+/* FACILITY SECTION */
+#facility{
+  clear: left;
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 5% 2% 10%;
+}
+
+.fac-head{
+  text-align: center;
+  padding: 2%;
+  margin: 0 0 2%;
+
+}
+
+/* BROADCAST SECTION */
+
+.broad-cast{
+  clear: left;
+  padding: 5% 2.5%;
+}
+
+.broadcast-column{
+  margin: 2%;
+  padding: 4%;
+  background-color: silver;
+  border-radius: 5px;
+  box-shadow: 0px 3px 5px 3px black;
+}
+
+h5, .bld {
+  font-weight: bolder;
+  color: black;
+}
+
+h4{
+  font-size: 1rem;
+  padding: 1% 2% 0 ;
+}
+/* FOOTER SECTION */
+
+.footer{
+  text-align: center;
+  padding: 2%;
+  box-shadow: 10px 10px 50px 50px #e0e0e0;
+  color: white;
+}
+
+.contacts{
+    margin: .5% auto ;
+}
+
+.footer-contacts{
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: bolder;
+  margin: 0 1%;
+  padding: .5rem;
+}
+
+.footer .bld{
+  color: white;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+/* MEDIA QUERY SECTION */
+
+@media (max-width: 963px) {
+  blockquote {
+  float: none;
+  width: 97%;
+  font-style: italic;
+  text-align: justify;
+  font-family: Georgia, Times, serif;
+  margin: 1%;
+  padding: .5%;
+  border-top: 1px solid #665544;
+  border-bottom: 1px solid #665544;
+}
+
+
+
+.caption{
+  width: 97%;
+  margin: 1% 1% 10%;
+  height: 450px;
+}
+
+.left-column {
+float: none;
+width: 77%;
+margin: 0;
+}
+
+.right-column{
+  margin: 5% 7%;
+}
+
+/* LOG IN */
+.loginbut, .logoutbut{
+  position: absolute;
+  right: 2.5rem;
+  top: 2.85rem;
+}
+
+.loginfa{  position: absolute;
+  right: 1.5rem;
+  top: 3.2rem;}
+
+.userimg{
+  position: absolute;
+  right: 7.5rem;
+  top: 3.2rem;
+}
+
+#userName{
+  position: absolute;
+  right: 9rem;
+  top: 3rem;
+  font-weight: bolder;
+  font-family: serif;
+}
+
+.height-correction{
+  height: 400px;
+}
+}
+
+@media (max-width: 1200px) {
+  .height-correction{
+    height: 500px;
+  }
+
+  .loginbut, .logoutbut{
+    top: 4rem;
+  }
+
+  .loginbut:hover{
+    color: #16ff05;
+  }
+
+  .logoutbut:hover{
+    color: #ff0505;
+  }
+
+  .loginfa{
+    top: 4.2rem;
+  }
+
+  .userimg{
+    top: 4.2rem;
+  }
+
+  #userName{
+    top: 4rem;
+  }
+}
+
+@media (max-width: 1050px) {
+
+  .loginbut, .logoutbut{
+    top: 3.55rem;
+  }
+
+  .loginbut:hover{
+    color: #16ff05;
+  }
+
+  .logoutbut:hover{
+    color: #ff0505;
+  }
+
+  .loginfa{
+    top: 3.85rem;
+  }
+
+  .userimg{
+    top: 3.85rem;
+  }
+
+  #userName{
+    top: 3.65rem;
+  }
+}
+
+
+@media (max-width: 800px) {
+  .height-correction{
+    height: 350px;
+  }
+}
+
+@media (max-width: 700px) {
+  .height-correction{
+    height: 300px;
+  }
+}
+
+@media (max-width: 500px) {
+  .height-correction{
+    height: 208px;
+  }
+}
